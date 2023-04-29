@@ -44,7 +44,7 @@ akbarvpnnnnnnnnnnn="raw.githubusercontent.com/Pakhaji30/cfnfree/main/update"
 
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$(curl https://raw.githubusercontent.com/lizsvr/cfnfree/main/ipvps.txt | grep $MYIP | awk '{print $3}')
+IZIN=$(curl https://raw.githubusercontent.com/Pakhaji30/cfnfree/main/ipvps.txt | grep $MYIP | awk '{print $3}')
 if [ $MYIP = $MYIP ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
@@ -148,7 +148,7 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "---------------------- Script Mod By LIZ ----------------------" | tee -a log-install.txt
+echo "---------------------- Script Mod By KANG HORY ----------------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
 sleep 15
