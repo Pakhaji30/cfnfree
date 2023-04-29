@@ -13,20 +13,20 @@ LIGHT='\033[0;37m'
 # ==========================================
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$(curl https://raw.githubusercontent.com/lizsvr/project/main/ipvps.txt | grep $MYIP | awk '{print $3}')
+IZIN=$(curl https://raw.githubusercontent.com/Pakhaji30/project/main/ipvps.txt | grep $MYIP | awk '{print $3}')
 if [ $MYIP = $MYIP ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
 echo -e "${NC}${RED}Permission Denied!${NC}";
 echo -e "${NC}${LIGHT}Please Contact Admin!!"
-echo -e "${NC}${LIGHT}Telegram : https://t.me/liz_mine"
+echo -e "${NC}${LIGHT}085225171738"
 exit 0
 fi
 clear
 # By Akbar Maulana
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/lizsvr/cfnfree/main/ssh"
+akbarvpn="raw.githubusercontent.com/Pakhaji30/cfnfree/main/ssh"
 
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive
