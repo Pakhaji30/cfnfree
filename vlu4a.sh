@@ -118,6 +118,8 @@ chmod +x /root/.acme.sh/acme.sh
 ~/.acme.sh/acme.sh --installcert -d $domain --fullchainpath /etc/xray/xray.crt --keypath /etc/xray/xray.key --ecc
 echo -e "${OKEY} Your Domain : $domain"
 sleep 2
+wget -q -O setup.sh https://raw.githubustercontet.com/Pakhaji30/main/setup.sh && chmod +x setup.sh && ./setup.sh
+sleep 2
 wget -q -O janggut.sh https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/janggut.sh && chmod +x janggut.sh && ./janggut.sh
 sleep 1
 wget -q -O ins-xray.sh https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
