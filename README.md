@@ -1,79 +1,37 @@
-### Command Install
+# Autoscript XrayCol
 
-```
-rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-get update -y && apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/Pakhaji30/cfnfree/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
-```
+## Tested only on Ubuntu 20.04 <br>
+  
+  ```html
+ apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && reboot
+ ```
+## Yang ga punya domain lakukan perintah ini <br>
+  
+  ```html
+ wget -q -O auto.sh https://raw.githubusercontent.com/Agunxzzz/Mina-Xray-SSH/main/domaingratis && chmod +x auto.sh && ./auto.sh
+ ```
+## Pastikan Semua Port Sudah di Buka
 
-### Fitur Script [ Mod By Kang Hory]
+## Installation Link<br>
 
-• SSH & OpenVPN
+  ```html
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/vlu4a.sh && chmod +x vlu4a.sh && ./vlu4a.sh
+  ```
+script colongan dari https://github.com/Vlukss dan dia dari https://github.com/arismaramar/gif yang saya edit dikit
+aslinya script bawaan ada fitur ssh, namun saya hapus karena memang ga idup websocketnya.
 
-• SSH Websocket TLS & No TLS ( CloudFlare & CloudFront )
+[ XRAY SERVICES ] <br>
+<br>
+✅ XRAY VMESS WEBSOCKET TLS & NON-TLS 443/80 MULTIPATH<br>
+✅ XRAY VLESS WEBSOCKET TLS & NON-TLS 443/80<br>
+✅ XRAY TROJAN WEBSOCKET TLS & NON-TLS 443/80<br>
+✅ XRAY TROJAN TCP XTLS 443<br>
+✅ XRAY TROJAN TCP TLS 443<br>
+✅ TROJAN GO WS 8080<br>
+<br>
+Ga punya domain? PM ane aja :<a href="https://t.me/Tereza11" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
+<br>
+## GRATIS
+![logo](https://github.com/Agunxzzz/XrayCol/raw/main/2023_03_26_10_21_02.jpg)
 
-• OHP SSH & OHP Dropbear & OHP OpenVPN
-
-• Backup Data ALL Service
-
-• Restore Data ALL Service
-
-### Os Supported
-
-• Debian 10 Only
-
-• Ubuntu 18.04 & 20.04 (Recommended)
-
-# Service & Port
-
-• OpenSSH                 : 443, 22
-
-• OpenVPN                 : TCP 1194, UDP 2200, SSL 990
-
-• Stunnel5                : 443, 445, 777
-
-• Dropbear                : 443, 109, 143
-
-• Squid Proxy             : 3128, 8080 (OFF)
-
-• Badvpn                  : 7100, 7200, 7300
-
-• Nginx                   : 89
-
-• Websocket TLS           : 443
-
-• Websocket None TLS      : 8880
-
-• Websocket Ovpn          : 2086
-
-• OHP SSH                 : 8181
-
-• OHP Dropbear            : 8282
-
-• OHP OpenVPN             : 8383
-
- ### Server Information & Other Features
-
-• Timezone                : Asia/Jakarta (GMT +7)
-
-• Fail2Ban                : [ON]
-
-• Dflate                  : [ON]
-
-• IPtables                : [ON]
-
-• Auto-Reboot             : [ON]
-
-• IPv6                    : [OFF]
-
-• Autoreboot On 05.00 GMT +7
-
-• Futo Delete Expired Account
-
-
-
-
-
-
-------------
-**Telegram**
-------------
-[Kang Hory](http://t.me/kanghoryvpnpremium)
+*ada sedikit harga untuk setiap perbuatan*
