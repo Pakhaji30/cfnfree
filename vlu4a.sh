@@ -124,7 +124,7 @@ wget -q -O janggut.sh https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/ja
 sleep 1
 wget -q -O ins-xray.sh https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 sleep 1
-wget -q -O senmenu.sh https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/senmenu.sh && chmod +x senmenu.sh && ./senmenu.sh
+wget -q -O senmenu.sh https://raw.githubusercontent.com/Pakhaji30/cfnfree/main/senmenu.sh && chmod +x senmenu.sh && ./senmenu.sh
 sleep 1
 IP=$(echo $SSH_CLIENT | awk '{print $1}')
 TMPFILE='/tmp/ipinfo-$DATE_EXEC.txt'
